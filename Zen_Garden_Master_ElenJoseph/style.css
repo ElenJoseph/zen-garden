@@ -1,0 +1,422 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
+
+
+/* css rest up so*/
+/* donot scroll up*/
+/*===============*/
+/*==============*/
+
+
+
+
+
+
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+
+/*font-family: 'Quicksand', sans-serif;*/
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300&display=swap');
+
+/*font-family: 'Open Sans Condensed', sans-serif;*/
+
+
+.body {
+    /* background-color: darkseagreen; */
+    /* color: white; */
+    position: relative;
+    background-image: url("https://images.pexels.com/photos/414660/pexels-photo-414660.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:top;
+    /* background-attachment: fixed; */
+    /* padding: 100px 0px; */
+    text-align: center;
+    font-size: 1.8rem;
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+}
+
+header {
+    background-image: url("https://images.unsplash.com/photo-1459664018906-085c36f472af?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2100&q=80");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    padding: 100px 0px;
+    text-align: center;
+    font-size: 1.8rem;
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+}
+header h1{
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 3rem;
+}
+header h2 {
+    color: white;
+    font-size: 1.8rem;
+    font-family: 'Open Sans Condensed', sans-serif;
+    border-top:2px solid white;
+    padding-top: 5px;
+}
+
+.summary {
+    text-align: center;
+    font-size: 18px;
+    padding: 1.5rem;
+    font-family: 'Quicksand', sans-serif;
+    display: block;
+    margin:2px;
+    line-height: 25px;
+    text-align: justify;
+    text-align-last: center;
+}
+
+.summary a{
+    border:1px solid darkseagreen;
+    background-color: white;
+    color:darkseagreen;
+    padding: 4px 8px;
+    border-radius: 5px;
+}
+.summary a:hover, .summary a:focus{
+    border:1px solid white;
+    color: white;
+    background-color:darkseagreen;
+}
+ h3 {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1.8rem;
+    text-decoration: underline;
+    /*    padding: 1.5rem;*/
+    text-align: center;
+
+}
+
+p {
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    text-align: justify;
+    margin:5px 0 5px 0;
+    font-size: 1.1rem;
+    line-height: 1.4rem;
+    text-align-last: center;
+}
+
+
+footer {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1.8rem;
+    padding: 1.5rem;
+    text-align: center;
+
+}
+
+.sidebar {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1rem;
+    /* padding: 1.5rem; */
+    background-color: bisque;
+    background-image: url("https://images.pexels.com/photos/268261/pexels-photo-268261.jpeg?auto=format%2Ccompress&cs=tinysrgb&dpr=2&w=500");
+    background-size: cover;
+    padding-bottom: 100px;
+    background-attachment: fixed;
+    overflow: hidden;
+}
+footer{
+    position: static;
+    display: block;
+}
+aside h3 {
+    color: white;;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1.8rem;
+    padding: 1.5rem;
+    display: block;
+    width:110%;
+    text-decoration: none;
+    margin-left:-30px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.262);
+    margin-bottom: 10px;
+}
+
+h3 {
+    color: white;;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1.8rem;
+    padding: 1.5rem;
+    display: block;
+    width:110%;
+    text-decoration: none;
+    margin-left:-30px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.084);
+    margin-bottom: 10px;
+}
+
+aside li{
+    display: block;
+    padding: 0.3rem;
+}
+aside li a{
+    color: inherit;
+}
+aside  li a:hover:before{
+    content: ">";
+}
+aside div {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1rem;
+    padding: 1.5rem;
+    color: white;
+}
+
+article a{
+    color:white;
+    text-decoration-color: grey;
+    font-weight: bold;
+    padding: 2px;
+    border:2px solid rgba(255,255,255,0.5);
+}
+
+footer{
+    position: absolute;
+    bottom: 0;
+    width:100%;
+    display: block;
+    border-top:2px solid white;
+    color: white;
+    background-color: #9FBFBF;
+    font-size:1.1rem;
+}
+footer a{
+    color: inherit;
+    padding:10px 20px;
+    text-decoration: none;
+}
+aside{
+    display: flex;
+    flex-direction: column;
+}
+
+/*tablet view*/
+ 
+@media screen and (min-width: 900px) {
+    body{
+        position: static;
+    }
+p{
+    font-size: 1.5rem;
+    width:80%;
+    display: block;
+    margin: 0 auto;
+}
+aside{
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+aside h3{
+    width:90%;
+    margin-left:0;
+    text-align: left;
+    background-color: transparent;
+    margin-bottom: 10px;
+    font-size: 1.7rem;
+}
+aside ul li{
+    width:60%; 
+     font-size: 1.2rem;
+}
+footer{
+    font-size:1.3rem;
+}
+p{
+    line-height:1.8rem;
+}
+}
+
+/*Desktop view*/
+
+@media screen and (min-width:1080px){
+ article p{
+   float:left;
+   width:50%;
+   line-height: 2rem;
+}
+
+.body{
+    background-attachment: fixed;
+}
+.summary p{
+    width: 100%;
+}
+   .preamble p, .participation p{
+    width:calc(100% / 3);
+   }
+
+   article:before,article:after{
+       clear: both;
+       display: block;
+       content: "";
+       float: none;
+   }
+   .benefits p {
+       width: 100%;
+   }
+   article{
+       display: block;
+       margin:20px 10px;
+       border-top:1px solid white;
+       padding-top:10px;
+   }
+aside{
+display: flex;
+flex-direction: row;
+justify-content: center;
+} 
+aside ul li{
+    width:100%;
+}
+footer{
+    font-size:1.4rem;
+}
+}
